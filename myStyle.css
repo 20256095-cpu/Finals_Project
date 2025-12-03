@@ -1,15 +1,10 @@
-/* ===================================================
-        COLORFUL PROFESSIONAL THEME
-=================================================== */
 
-/* ---------- Global Styling ---------- */
 body {
     background-color: #f9f9f9;  /* Dark background */
     color: #e0e0e0;             /* Light text */
     font-family: "Inter", sans-serif;
 }
 
-/* Fade-in animation */
 .fade-in {
     animation: fadeIn 0.6s ease;
 }
@@ -18,7 +13,7 @@ body {
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ---------- NAVBAR ---------- */
+
 .navbar {
     background: linear-gradient(90deg, rgb(0, 0, 0),  rgb(0, 0, 0), rgb(0, 0, 0));
     padding: 12px 0;
@@ -95,7 +90,6 @@ form .btn:hover {
     
 }
 
-/* ---------- CARDS ---------- */
 .card {
     border: none;
     border-radius: 12px;
@@ -127,7 +121,6 @@ form .btn:hover {
     color: black;
 }
 
-/* ---------- CAROUSEL ---------- */
 .carousel-item img {
     height: 500px;
     object-fit: cover;
@@ -161,7 +154,6 @@ form .btn:hover {
     color: #e0e0e0;
 }
 
-/* ---------- COLUMNS ---------- */
 .col {
     background-color: #1f1f1f;
     padding: 20px;
@@ -175,7 +167,6 @@ form .btn:hover {
     border-left: 4px solid #f0a500;
 }
 
-/* ---------- FOOTER ---------- */
 footer .navbar {
     background: linear-gradient(90deg, rgb(0, 0, 0), black, rgb(0, 0, 0));
     border-radius: 8px;
