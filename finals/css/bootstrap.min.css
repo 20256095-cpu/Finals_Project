@@ -1,0 +1,121 @@
+
+body {
+    background-color: #111 !important; 
+    color: #e0e0e0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+.navbar .form-control {
+    border-radius: 0.4rem;
+}
+
+.btn-outline-success {
+    color: #00d46a;
+    border-color: #00d46a;
+}
+
+.btn-outline-success:hover {
+    background-color: #00d46a;
+    color: black;
+}
+
+
+.card {
+    background-color: #222;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-text {
+    color: #ccc;
+}
+
+.card img {
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+.carousel-inner img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+.accordion-button {
+    background-color: #333;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #444;
+    color: #fff;
+}
+
+.accordion-body {
+    background-color: #222;
+    color: #ddd;
+}
+
+
+footer nav.navbar {
+    margin-top: 40px;
+    background-color: #222 !important;
+}
+
+
+.container .col {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    color: #ccc;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+
+.btn-primary {
+    background-color: #0066ff;
+    border-color: #0066ff;
+}
+
+.btn-primary:hover {
+    background-color: #0052cc;
+}
+
+
+* {
+    transition: 0.2s ease-in-out;
+}
