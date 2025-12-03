@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: gray;
+}
+
+.navbar {
+    background: black;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #fff !important;
+}
+.nav-link {
+    color: #e0e0e0 !important;
+    font-weight: 500;
+    transition: 0.25s ease;
+}
+.nav-link:hover {
+    color: #121212 !important;
+    background-color: lightgray;
+    border-radius: 6px;
+}
+.nav-link.active {
+    color: white !important;
+}
+
+
+.grid {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 35px;
+    padding: 0 20px;
+}
+
+
+.card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.10);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+    width: 85%;
+    margin: 15px auto;
+    display: block;
+    height: 150px;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0a0f24;
+    margin-bottom: 10px;
+}
+
+.count {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.desc {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600px;
+}
+button:hover{
+    background:gray;
+    transition:0.5s;
+}
+button:hover{
+    color:black;
+}
